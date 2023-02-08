@@ -3,7 +3,7 @@ void main() {
   // var nama = "Rifaldi Herikson";
 
   // Tipe data String v2
-  String namaLengkap = "Rifaldi Herikson";
+  String namaLengkap = " Rifaldi Herikson ", emptyCheck = "";
   var identitas = "Rifaldi,Herikson,25";
   int usia = 25;
 
@@ -25,4 +25,20 @@ void main() {
 
   // Memisahkan huruf (Split)
   print(identitas.split(','));
+
+  // Menghilangkan spasi character
+  print(namaLengkap.trim());
+
+  // Menghitung panjang character
+  print(namaLengkap.length);
+
+  // Mendapatkan nilai ASCII
+  print(namaLengkap.codeUnitAt(1));
+
+  // Mengecek character awal
+  print(namaLengkap.startsWith("Rifaldi"));
+
+  // Mengecek character kosong
+  print(namaLengkap.isEmpty);
+  print(emptyCheck.isNotEmpty);
 }
