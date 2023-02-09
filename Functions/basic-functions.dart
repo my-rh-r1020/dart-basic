@@ -28,7 +28,7 @@ int volumeBalok(int p, int l, int t) {
 
 // ====================================
 
-// IF-ELSE Function
+// Function - IF-ELSE
 void tesIfElse() {
   // Case 1
   int usia = 26;
@@ -55,7 +55,7 @@ void tesIfElse() {
 
 // ====================================
 
-// Switch-Case Function
+// Function - Switch-Case
 void switchTest() {
   // Case 1
   int suhu = 39;
